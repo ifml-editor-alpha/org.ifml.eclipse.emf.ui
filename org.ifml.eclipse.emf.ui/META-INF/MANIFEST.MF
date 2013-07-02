@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IFML Eclipse EMF Library
+Bundle-SymbolicName: org.ifml.eclipse.emf.ui
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: WebRatio s.r.l.
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.ifml.lib.google.guava,
+ org.eclipse.emf.ecore,
+ org.ifml.eclipse.emf.core,
+ org.ifml.base,
+ org.eclipse.jface,
+ org.eclipse.core.databinding,
+ org.eclipse.core.databinding.property,
+ org.eclipse.jface.databinding,
+ org.eclipse.emf.databinding.edit,
+ org.eclipse.core.runtime,
+ org.eclipse.gef,
+ org.ifml.eclipse.ui,
+ org.eclipse.ui.views.properties.tabbed,
+ org.eclipse.emf.transaction
+Export-Package: org.ifml.eclipse.emf.ui.databinding,
+ org.ifml.eclipse.emf.ui.editparts,
+ org.ifml.eclipse.emf.ui.properties,
+ org.ifml.eclipse.emf.ui.viewers
